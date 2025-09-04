@@ -1,0 +1,65 @@
+/* Reset dasar */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9e4d4; /* warna peach pastel seperti gambar */
+  color: #000;
+}
+
+/* Header */
+header {
+  background-color: #f9e4d4;
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: column; /* ⬅️ penting: buat vertikal */
+  align-items: flex-start;
+}
+
+header h1 {
+  font-size: 20px;
+  margin: 0 0 10px 0; /* beri jarak bawah */
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #a45b37;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Gambar banner */
+.hero img {
+  width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Artikel */
+.content {
+  padding: 20px 30px;
+}
+
+.content h2 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+.meta {
+  font-size: 14px;
+  color: #555;
+}
+
+.meta a {
+  color: #a45b37;
+  text-decoration: none;
+}
+
+.meta a:hover {
+  text-decoration: underline;
+}
