@@ -8,11 +8,22 @@ body {
 
 /* Header */
 header {
+    position: fixed; /* ⬅️ penting: buat tetap di atas */
+    top: 0;
+    left: 0;
+    width: 100%;
   background-color: #f9e4d4;
   padding: 15px 30px;
   display: flex;
   flex-direction: column; /* ⬅️ penting: buat vertikal */
   align-items: flex-start;
+}
+
+.dop {
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+  overflow: scroll;
 }
 
 header h1 {
@@ -88,4 +99,11 @@ html {
   width: 50px;
   height: 50px;
   background-color: rgb(77, 45, 6);
+}
+
+.four {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(202, 153, 92);
+  overflow: scroll;
 }
